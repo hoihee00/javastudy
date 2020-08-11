@@ -1,8 +1,8 @@
-piblic calss VariableExample {
-	piblic static void main(String[] args) {
+public class VariableExample {
+	public static void main(String[] args) {
 		int value1 = 10;
-		int value1 = 20;
-		int result = 10 + 20;
-		System.out.printin("10 + 20 = " + result);
+		int value2 = 20;
+		int result = value1 + value2;
+		System.out.println("10 + 20 = " + result);
 	}
 }
